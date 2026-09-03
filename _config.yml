@@ -1,0 +1,32 @@
+title: Alexander Cardoza
+tagline: Notes on tooling, growth, and security
+description: >-
+  Essays and notes on developer tooling, growth engineering, and the security work
+  that small teams actually have time for.
+url: "https://lxlynx.com"
+baseurl: ""
+
+author:
+  name: Alexander Cardoza
+  email: hello@lxlynx.com
+
+theme: minima
+minima:
+  date_format: "%b %-d, %Y"
+
+markdown: kramdown
+permalink: /:year/:title/
+timezone: Etc/UTC
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
